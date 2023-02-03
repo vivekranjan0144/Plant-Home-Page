@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Plant Home Page</title>
     <link
       href="https://fonts.googleapis.com/css?family=Allerta"
       rel="stylesheet"
@@ -15,136 +14,188 @@
       rel="stylesheet"
     />
     <style>
-      * {
-          margin: 0;
-          padding: 0;
-          font-family: 'Allerta' , 'Abel' ;
-      }
+              * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Allerta' , 'Abel' ;
+        }
 
-      ::selection {
-          background-color: #8ecc9d;
-      }
+        ::selection {
+            background-color: #8ecc9d;
+        }
 
-      body {
-          background-color: #F4F3F8;
-      }
+        body {
+            background-color: #F4F3F8;
+        }
+        /*-------------------------------------------------*/
+        /*--------------------NavBAr-----------------------*/
+        /*-------------------------------------------------*/
+        #navbarMonstera {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2em 4em;
+        }
 
-    /*--------------------NavBAr-----------------------*/
-      #navbarMonstera {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 2em 4em;
-      }
+        #navMid {
+            display: flex;
+            gap: 6em;
+        }
 
-      #navMid {
-          display: flex;
-          gap: 6em;
-      }
+        #navMid div:hover {
+            cursor: pointer;
+        }
 
-      #navMid div:hover {
-          cursor: pointer;
-      }
+        #navMid div::after {
+            content: '';
+            display: block;
+            height: 0.2em;
+            background-color: #466D50;
+            width: 0em;
+            margin-top: 0.1em;
+        }
 
-      #navMid div::after {
-          content: '';
-          display: block;
-          height: 0.2em;
-          background-color: #466D50;
-          width: 0em;
-          margin-top: 0.1em;
-      }
+        #navMid div:hover::after {
+            width: 100%;
+            transition: width 0.5s;
+        }
 
-      #navMid div:hover::after {
-          width: 100%;
-          transition: width 0.5s;
-      }
+        #navEnd {
+            display: flex;
+            gap: 2em;
+            cursor: pointer;
+        }
+        /*-------------------------------------------------*/
+        /*--------------------midPart----------------------*/
+        /*-------------------------------------------------*/
+        #midWhole {
+            display: flex;
+            justify-content: space-between;
+        }
 
-      #navEnd {
-          display: flex;
-          gap: 2em;
-          cursor: pointer;
-      }
-    /*-------------------------------------------------*/
+        #midWholePart1 {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+            padding-left: 4em;
+        }
 
-    /*--------------------midPart----------------------*/
-      #midWhole {
-          display: flex;
-          justify-content: space-between;
-      }
+        #midWholePart11>div>ul>li:nth-child(3) {
+            width: 38em;
+        }
 
-      #midWholePart1 {
-          display: flex;
-          flex-direction: column;
-          gap: 2em;
-          padding-left: 4em;
-      }
+        #midWholePart11>div>ul>li:nth-child(4) {
+            width: 38em;
+        }
 
-      #midWholePart11>div>ul>li:nth-child(3) {
-          width: 38em;
-      }
+        #monstera {
+            display: inline-block;
+            font-size: 7.5em;
+            margin-top: 0.8em;
+        }
 
-      #midWholePart11>div>ul>li:nth-child(4) {
-          width: 38em;
-      }
+        #midWholePart121 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 11em;
+            margin-top: 3em;
+            padding: 0.6em 0.8em;
+            border-radius: 2em;
+            gap: 0.6em;
+            background-color: #466D50;
+            cursor: pointer;
+        }
 
-      #monstera {
-          display: inline-block;
-          font-size: 7.5em;
-          margin-top: 0.8em;
-      }
+        #midWholePart121>div h1 {
+            font-family: 'Abel';
+            font-size: 2em;
+            font-weight: 100;
+            color: #fff;
+        }
 
-      #midWholePart121 {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 11em;
-          margin-top: 3em;
-          padding: 0.6em 0.8em;
-          border-radius: 2em;
-          gap: 0.6em;
-          background-color: #466D50;
-          cursor: pointer;
-      }
+        #midWholePart122 img {
+            width: 0.7em;
+        }
 
-      #midWholePart121>div h1 {
-          font-family: 'Abel';
-          font-size: 2em;
-          font-weight: 100;
-          color: #fff;
-      }
+        #midWholePart13 {
+            display: flex;
+            gap: 1em;
+            margin-top: 3em;
+        }
 
-      #midWholePart122 img {
-          width: 0.7em;
-      }
+        .midWholePart13Parts {
+            display: flex;
+            align-items: center;
+            gap: 0.4em;
+        }
 
-      #midWholePart13 {
-          display: flex;
-          gap: 1em;
-          margin-top: 3em;
-      }
+        #midWholePart13 h4 {
+            font-size: 1.15em;
+        }
 
-      .midWholePart13Parts {
-          display: flex;
-          align-items: center;
-          gap: 0.4em;
-      }
+        .text {
+            margin-top: 0.4em;
+            font-size: 0.5em;
+        }
 
-      #midWholePart13 h4 {
-          font-size: 1.15em;
-      }
+        #imgMain {
+            width: 40em;
+            height: 42.5em;
+        }
+        /*-------------------------------------------------*/
+        /*-------------------Media-Query-------------------*/
+        /*-------------------------------------------------*/
+        @media screen and (max-width: 1379px) {
+            #navMid {
+                gap: 0;
+                width: 50vw;
+                justify-content: space-between;
+            }
+            
+            #imgMain  {
+                display: none;
+            }
 
-      .text {
-          margin-top: 0.4em;
-          font-size: 0.5em;
-      }
+            #midWholePart1 {
+                width: 100vw;
+                align-items: center;
+            }
 
-      #imgMain {
-          width: 40em;
-          height: 42.5em;
-      }
+            #monstera {
+                font-size: 14vw;
+            }   
 
-    /*-------------------------------------------------*/
+            #midWholePart11>div>ul>li:nth-child(3) {
+                width: 38vw;
+            }
+            
+            #midWholePart11>div>ul>li:nth-child(4) {
+                width: 38vw;
+            }
+        }
+
+        @media screen and (max-width: 867px) {
+            #navbarMonstera ,  #navMid {
+                flex-direction: column;
+                align-items: center;
+                gap: 1em;
+            }
+
+            #midWholePart1 {
+                padding-left: 0.8em;
+                padding-bottom: 0.8em;
+            }
+        }
+
+        @media screen and (max-width: 475px){
+            #midWholePart13 {
+                flex-wrap: wrap;
+            }
+            .midWholePart13Parts {
+                width: 100%;
+            }
+        }
     </style>
   </head>
   <body>
