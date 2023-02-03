@@ -1,9 +1,7 @@
 
 # HTML-CSS PROJECT-6
 
-This is Plant Home Page project made with technology HTML & CSS.
-I haven't made it responsive it only works in desktop/laptop screen.
-I will make it responsive ASAP.
+This is Plant Home Page project made with technology HTML & CSS. I have made it responsive it works in both desktop screen and mobile screen.
 
 
 ## 🛠 Technologies Used
@@ -11,8 +9,13 @@ I will make it responsive ASAP.
 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Demo
-[Project-6.webm](https://user-images.githubusercontent.com/100980716/215298152-a9a50e09-6981-407a-8be2-93c251c5ec2c.webm)
+## Demo Video in Desktop Screen
+
+[Project-6.webm](https://user-images.githubusercontent.com/100980716/216588838-bf417737-a610-49c3-a66b-969e73b26c10.webm)
+
+## Demo Video in Mobile Screen
+
+https://user-images.githubusercontent.com/100980716/216588966-68468e76-6774-416d-a54a-9b43f34fecf7.mp4
 
 ## What i have learnt By working on this project
 1. I learned how write Internal CSS.
