@@ -12,6 +12,7 @@ I will make it responsive ASAP.
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Demo
+[Project-6.webm](https://user-images.githubusercontent.com/100980716/215298152-a9a50e09-6981-407a-8be2-93c251c5ec2c.webm)
 
 ## What i have learnt By working on this project
 1. I learned how write Internal CSS.
@@ -23,7 +24,7 @@ This project took about 1.5-2 hours to complete.
 
 ## PROJECT LIVE LINK
 
-<a href="" target="_blank">![Live Link](https://img.shields.io/badge/Live-Link-green)</a>
+<a href="https://html-css-project06.netlify.app/" target="_blank">![Live Link](https://img.shields.io/badge/Live-Link-green)</a>
 
 ## SOCIAL MEDIA LINKS
 - [![facebook](https://img.shields.io/badge/Facebook-0A66C2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/vivekranjan0144/)
